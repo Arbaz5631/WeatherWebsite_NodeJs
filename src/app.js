@@ -23,7 +23,7 @@ app.get('/weather',(req,res)=>{
 });
 app.get('*',(req,res)=>{
     res.render('error',{
-        error_msg:"OOPss 404 Error Page 😄😄😄😄😄"
+        error_msg:"OOPss 404 Error Page 😄"
     })
 });
 app.listen(port );

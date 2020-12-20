@@ -3,7 +3,7 @@ const city_name = document.getElementById('city_name');
 const city_output = document.getElementById("city_output");
 const temp = document.getElementById('temp');
 const temp_status = document.getElementById('temp_status');
-const full = document.getElementById('full');
+// const full = document.getElementById('full');
 
 const getInfo = async (event) => {
     event.preventDefault();
